@@ -432,6 +432,12 @@ section {
     font-size: 14px;
     line-height: 1.21;
   }
+  .product-franchise-form {
+    width: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
   .product-franchise-form .contact-form:not(:last-child) {
     margin-bottom: 16px;
   }
@@ -450,14 +456,6 @@ section {
     min-width: 121px;
     font-size: 14px;
     line-height: 1.21;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .product-franchise-form {
-    width: 368px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 32px;
   }
 }
 header {
@@ -759,7 +757,7 @@ header {
   }
 }
 .products {
-  background-image: url(../../images/Backgroud-480.jpg);
+  background-image: url(../images/Backgroud-480.jpg);
   background-size: cover;
   background-position: center;
   margin-left: auto;
@@ -769,7 +767,7 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products {
-    background-image: url(../../images/Backgroud-480@2x.jpg);
+    background-image: url(../images/Backgroud-480.jpg);
   }
 }
 .products__label {
@@ -821,7 +819,7 @@ header {
   background-color: #AEC6A5;
 }
 .products__bg1::after {
-  background-image: url(../../images/product-1-480.png);
+  background-image: url(../images/product-1-480.png);
 }
 .products__bg1::before {
   background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7), #D9D9D9);
@@ -830,14 +828,14 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__bg1::after {
-    background-image: url(../../images/product-1-480@2x.png);
+    background-image: url(../images/product-1-480@2x.png);
   }
 }
 .products__bg2 {
   background-color: #EFD478;
 }
 .products__bg2::after {
-  background-image: url(../../images/product-2-480.png);
+  background-image: url(../images/product-2-480.png);
 }
 .products__bg2::before {
   background-image: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7), #D9D9D9);
@@ -846,14 +844,14 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__bg2::after {
-    background-image: url(../../images/product-2-480@2x.png);
+    background-image: url(../images/product-2-480@2x.png);
   }
 }
 .products__bg3 {
   background-color: #D6936D;
 }
 .products__bg3::after {
-  background-image: url(../../images/product-3-480.png);
+  background-image: url(../images/product-3-480.png);
 }
 .products__bg3::before {
   background-image: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7), #D9D9D9);
@@ -862,7 +860,7 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__bg3::after {
-    background-image: url(../../images/product-3-480@2x.png);
+    background-image: url(../images/product-3-480@2x.png);
   }
 }
 .products__item:not(:last-child) {
@@ -912,12 +910,12 @@ header {
 @media screen and (min-width: 768px) {
   .products {
     padding-bottom: 60px;
-    background-image: url(../../images/Backgroud-768.jpg);
+    background-image: url(../images/Backgroud-768.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .products {
-    background-image: url(../../images/Backgroud-768@2x.jpg);
+    background-image: url(../images/Backgroud-768@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -958,12 +956,12 @@ header {
 @media screen and (min-width: 1200px) {
   .products {
     padding-bottom: 60px;
-    background-image: url(../../images/Backgroud-1200.jpg);
+    background-image: url(../images/Backgroud-1200.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .products {
-    background-image: url(../../images/Backgroud-1200@2x.jpg);
+    background-image: url(../images/Backgroud-1200@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1005,7 +1003,7 @@ header {
 }
 @media screen and (min-width: 1200px) {
   .products__bg1::after {
-    background-image: url(../../images/product-1-1200.png);
+    background-image: url(../images/product-1-1200.png);
   }
   .products__bg1::before {
     box-shadow: 0px 8px 30px rgba(10, 136, 23, 0.25);
@@ -1013,12 +1011,12 @@ header {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .products__bg1::after {
-    background-image: url(../../images/product-1-1200@2x.png);
+    background-image: url(../images/product-1-1200@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .products__bg2::after {
-    background-image: url(../../images/product-2-1200.png);
+    background-image: url(../images/product-2-1200.png);
   }
   .products__bg2::before {
     box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
@@ -1026,12 +1024,12 @@ header {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .products__bg2::after {
-    background-image: url(../../images/product-2-1200@2x.png);
+    background-image: url(../images/product-2-1200@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .products__bg3::after {
-    background-image: url(../../images/product-3-1200.png);
+    background-image: url(/../images/product-3-1200.png);
   }
   .products__bg3::before {
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
@@ -1039,7 +1037,7 @@ header {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .products__bg3::after {
-    background-image: url(../../images/product-3-1200@2x.png);
+    background-image: url(../images/product-3-1200@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1099,7 +1097,7 @@ header {
   display: block;
   width: 279px;
   height: 278px;
-  background-image: url(../../images/about-img-480.png);
+  background-image: url(../images/about-img-480.png);
   background-size: contain;
   background-position: center;
   border-radius: 140px;
@@ -1107,7 +1105,7 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about__title::after {
-    background-image: url(../../images/about-img-480@2x.png);
+    background-image: url(../images/about-img-480@2x.png);
   }
 }
 .about__text-box {
@@ -1162,13 +1160,13 @@ header {
     transform: translateX(0);
     width: 330px;
     height: 330px;
-    background-image: url(../../images/about-img-768.png);
+    background-image: url(../images/about-img-768.png);
     border-radius: 165px;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .about__title::after {
-    background-image: url(../../images/about-img-768@2x.png);
+    background-image: url(../images/about-img-768@2x.png);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1215,13 +1213,13 @@ header {
     left: 16px;
     width: 490px;
     height: 490px;
-    background-image: url(../../images/about-img-1200.png);
+    background-image: url(../images/about-img-1200.png);
     border-radius: 250px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .about__title::after {
-    background-image: url(../../images/about-img-1200@2x.png);
+    background-image: url(../images/about-img-1200@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1272,6 +1270,7 @@ header {
 }
 
 .advantages__icon-description {
+  max-width: 230px;
   font-size: 12px;
   line-height: 1.7;
   color: var(--text-color);
@@ -1376,7 +1375,7 @@ header {
   }
 }
 .reviews {
-  background-image: url(../../images/Backgroud-480.jpg);
+  background-image: url(../images/Backgroud-480.jpg);
   background-size: cover;
   background-position: center;
   margin-left: auto;
@@ -1387,7 +1386,7 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .reviews {
-    background-image: url(../../images/Backgroud-480@2x.jpg);
+    background-image: url(../images/Backgroud-480@2x.jpg);
   }
 }
 @media screen and (min-width: 480px) {
@@ -1400,24 +1399,24 @@ header {
   .reviews {
     padding-top: 283px;
     padding-bottom: 379px;
-    background-image: url(../../images/Backgroud-768.jpg);
+    background-image: url(../images/Backgroud-768.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .reviews {
-    background-image: url(../../images/Backgroud-768@2x.jpg);
+    background-image: url(../images/Backgroud-768@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .reviews {
     padding-top: 464px;
     padding-bottom: 272px;
-    background-image: url(../../images/Backgroud-1200.jpg);
+    background-image: url(../images/Backgroud-1200.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .reviews {
-    background-image: url(../../images/Backgroud-1200@2x.jpg);
+    background-image: url(../images/Backgroud-1200@2x.jpg);
   }
 }
 .contacts {
@@ -1854,7 +1853,7 @@ address {
   display: block;
   width: 132px;
   height: 132px;
-  background-image: url(../../images/modal-ingred-mobile-min.png);
+  background-image: url(../images/modal-ingred-mobile-min.png);
   background-size: contain;
   background-position: center;
   border-radius: 50%;
@@ -1877,7 +1876,7 @@ address {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .modal-ingredients__title::after {
-    background-image: url(../../images/modal-ingred-mobile@2x-min.png);
+    background-image: url(../images/modal-ingred-mobile@2x-min.png);
   }
 }
 .nutritional-list {
@@ -2070,12 +2069,12 @@ address {
   box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 .product-card__bg1::after {
-  background-image: url(../../images/product-card-1-mobile.png);
+  background-image: url(../images/product-card-1-mobile.png);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .product-card__bg1::after {
-    background-image: url(../../images/product-card-1-mobile@2x.png);
+    background-image: url(../images/product-card-1-mobile@2x.png);
   }
 }
 .product-card__bg2 {
@@ -2088,12 +2087,12 @@ address {
   box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
 }
 .product-card__bg2::after {
-  background-image: url(../../images/product-card-2-mobile.png);
+  background-image: url(../images/product-card-2-mobile.png);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .product-card__bg2::after {
-    background-image: url(../../images/product-card-2-mobile@2x.png);
+    background-image: url(../images/product-card-2-mobile@2x.png);
   }
 }
 .product-card__bg3 {
@@ -2105,12 +2104,12 @@ address {
   box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
 }
 .product-card__bg3::after {
-  background-image: url(../../images/product-card-3-mobile.png);
+  background-image: url(../images/product-card-3-mobile.png);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .product-card__bg3::after {
-    background-image: url(../../images/product-card-3-mobile@2x.png);
+    background-image: url(../images/product-card-3-mobile@2x.png);
   }
 }
 .product-card__form {
@@ -2192,12 +2191,12 @@ address {
   height: 199px;
   background-size: contain;
   background-position: center;
-  background-image: url(../../images/location-mobile.jpg);
+  background-image: url(../images/location-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .location-modal::after {
-    background-image: url(../../images/location-mobile@2x.jpg);
+    background-image: url(../images/location-mobile@2x.jpg);
   }
 }
 .location-modal__title {
@@ -2214,12 +2213,12 @@ address {
     top: 92px;
     width: 448px;
     height: 260px;
-    background-image: url(../../images/location-768.jpg);
+    background-image: url(../images/location-768.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .location-modal::after {
-    background-image: url(../../images/location-768@2x.jpg);
+    background-image: url(../images/location-768@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
