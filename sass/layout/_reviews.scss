@@ -1,6 +1,6 @@
 .reviews {
     background-image: 
-    url(../../images/Backgroud-480.jpg);
+    url(../images/Backgroud-480.jpg);
     background-size: cover;
     background-position: center;
     margin-left: auto;
@@ -16,7 +16,7 @@
 (min-resolution: 2dppx) {
     .reviews {
         background-image:
-        url(../../images/Backgroud-480@2x.jpg);
+        url(../images/Backgroud-480@2x.jpg);
     }
 }
 
@@ -33,7 +33,7 @@
         padding-top: 283px;
         padding-bottom: 379px;
         background-image: 
-        url(../../images/Backgroud-768.jpg);
+        url(../images/Backgroud-768.jpg);
         
     }
 
@@ -43,7 +43,7 @@
     (min-resolution: 2dppx) {
         .reviews {
             background-image:
-            url(../../images/Backgroud-768@2x.jpg);
+            url(../images/Backgroud-768@2x.jpg);
         }
     }
 }
@@ -53,7 +53,7 @@
         padding-top: 464px;
         padding-bottom: 272px;
         background-image: 
-        url(../../images/Backgroud-1200.jpg);
+        url(../images/Backgroud-1200.jpg);
         
     }
 
@@ -63,7 +63,7 @@
     (min-resolution: 2dppx) {
         .reviews {
             background-image:
-            url(../../images/Backgroud-1200@2x.jpg);
+            url(../images/Backgroud-1200@2x.jpg);
         }
     }
 }

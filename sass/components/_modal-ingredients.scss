@@ -22,7 +22,7 @@
         display: block;
         width: 132px;
         height: 132px;
-        background-image: url(../../images/modal-ingred-mobile-min.png);
+        background-image: url(../images/modal-ingred-mobile-min.png);
         background-size: contain;
         background-position: center;
         border-radius: 50%;
@@ -52,7 +52,7 @@
 (min-resolution: 2dppx) {
     .modal-ingredients__title::after {
         background-image:
-        url(../../images/modal-ingred-mobile@2x-min.png);
+        url(../images/modal-ingred-mobile@2x-min.png);
     }
 }
 
