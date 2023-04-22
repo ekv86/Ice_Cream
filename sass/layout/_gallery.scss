@@ -1,0 +1,31 @@
+.gallery {
+    position: relative;
+    padding-top: 0;
+}
+
+.gallery__img {
+    position: absolute;
+    left: 50%;
+    top: -36px;
+    transform: translateX(-50%);
+    border-radius: 8px;
+   
+}
+
+@media screen and (min-width: 480px) {
+    .gallery__img {
+        top: -49px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gallery__img {
+        top: -144px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery__img {
+        top: -98px;
+    }
+}

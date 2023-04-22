@@ -1,0 +1,65 @@
+.location-modal {
+    position: relative;
+    height: auto;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 72px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 224px;
+        height: 199px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(../../images/location-mobile.jpg);
+    }
+}
+
+@media 
+(min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .location-modal::after {
+        background-image: url(../../images/location-mobile@2x.jpg);
+    }
+}
+
+.location-modal__title {
+    margin-bottom: 243px;
+}
+
+.location-modal__btn {
+    width: 134px;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 768px) {
+    .location-modal {
+        &::after {
+            top: 92px;
+            width: 448px;
+            height: 260px;
+            background-image: url(../../images/location-768.jpg);
+        }
+    }
+
+    @media 
+    (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .location-modal::after {
+            background-image: url(../../images/location-768@2x.jpg);
+        }
+    }
+
+    .location-modal__title {
+        margin-bottom: 324px;
+    }
+
+    .location-modal__btn {
+        width: 145px;
+    
+    }
+}

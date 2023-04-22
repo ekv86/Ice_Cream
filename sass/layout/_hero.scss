@@ -1,0 +1,193 @@
+.hero {
+    background-color: var(--main-back-color);   
+    position: relative;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero__link {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.hero-dots {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+   .hero__information,
+   .hero__about-product {
+        display: none;
+   }
+
+   .hero {
+        padding-top: 99px;
+    }
+
+    .hero-container {
+        padding-bottom: 150px;
+    }
+
+   .hero-img {
+        right: 4%;
+    }
+
+    .hero-much-icecream {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .hero-container {
+        padding-bottom: 236px;
+    }
+    
+    .hero-dots {
+        width: 100vw;
+    }
+
+   .hero-img {
+        left: 27%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+    }
+
+    .hero-container {
+        padding-bottom: 24px;
+    }
+
+    .main-title {
+        margin-bottom: 24px;
+    }
+
+    .hero__information {
+        position: absolute;
+        bottom: 205px;
+        right: 32px;
+    }
+
+    .hero__information-number {
+        margin-bottom: 4px;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.21;
+        text-align: right;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--title-color);
+    }
+
+    .hero__information-descr {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 1.25;
+        text-align: right;
+        color:var(--text-color);
+    }
+
+    .hero__information-bloc {
+        margin-bottom: 20px;
+    }
+
+    .hero__link {
+        margin-bottom: 39px;
+    }
+
+    .hero__about-product {
+        width: 165px;
+        margin-left: 184px;
+    }
+
+    .hero__about-product-text {
+        margin-bottom: 29px;
+        font-family: DM Sans, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.4;
+        color: #FFFFFF;
+    }
+
+    .hero__about-arrow {
+        fill: var(--text-color);
+    }
+
+    .hero-img {
+        right: 12%;
+    }
+
+    .hero-much-icecream {
+        position: absolute;
+        left: 4%;
+        bottom: 12px;
+        z-index: 5;
+
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .hero {
+         padding-top: 118px;
+    }
+
+    .hero-container {
+        padding-bottom: 103px;
+    }
+
+    .hero__information {
+        position: absolute;
+        bottom: 368px;
+        right: 16px;
+    }
+
+    .hero__information-number {
+        font-size: 46px;
+    }
+
+    .hero__information-descr {
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
+    .hero__information-bloc {
+        margin-bottom: 16px;
+    }
+
+    .hero__link {
+        margin-bottom: 109px;
+    }
+
+    .hero__about-product {
+        width: 200px;
+        margin-left: 257px;
+    }
+
+    .hero__about-product-text {
+        margin-bottom: 24px;
+        font-size: 14px;
+    }
+
+    .hero-img {
+        right: 8%;
+    }
+
+    .hero-much-icecream {
+        left: 16px;
+        bottom: 65px;
+
+    }
+}

@@ -1,0 +1,69 @@
+.reviews {
+    background-image: 
+    url(../../images/Backgroud-480.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 173px;
+    padding-bottom: 412px;
+    
+}
+
+@media 
+(min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .reviews {
+        background-image:
+        url(../../images/Backgroud-480@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .reviews {
+        padding-top: 235px;
+        padding-bottom: 409px;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+        padding-top: 283px;
+        padding-bottom: 379px;
+        background-image: 
+        url(../../images/Backgroud-768.jpg);
+        
+    }
+
+    @media 
+    (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .reviews {
+            background-image:
+            url(../../images/Backgroud-768@2x.jpg);
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .reviews {
+        padding-top: 464px;
+        padding-bottom: 272px;
+        background-image: 
+        url(../../images/Backgroud-1200.jpg);
+        
+    }
+
+    @media 
+    (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .reviews {
+            background-image:
+            url(../../images/Backgroud-1200@2x.jpg);
+        }
+    }
+}

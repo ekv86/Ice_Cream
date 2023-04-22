@@ -1,0 +1,219 @@
+.about {
+    background-color: var(--main-back-color);
+    padding-bottom: 25px;
+}
+
+.about__container {
+    position: relative;
+}
+
+.about__label {
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.about__title {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 372px;
+    color: var(--text-color);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 181px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 279px;
+        height: 278px;
+        border-radius: 140px;
+        background-color: var(--accent-color);
+        background-image: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7), #D9D9D9);
+        box-shadow: 0px 4.48583px 16.8218px rgba(153, 114, 23, 0.25);
+    
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 203px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 279px;
+        height: 278px;
+        background-image: url(../../images/about-img-480.png);
+        background-size: contain;
+        background-position: center;
+        border-radius: 140px;
+       
+    }
+}
+
+@media 
+(min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .about__title::after {
+        background-image:
+        url(../../images/about-img-480@2x.png);
+    }
+}
+
+.about__text-box {
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    font-size: 12px;
+    color: var(--text-color);
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.about__btn {
+    min-width: 164px;
+    line-height: 1.29;
+}
+
+@media screen and (min-width: 480px) {
+    .about {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding-bottom: 40px;
+    } 
+
+    .about__label {
+        font-size: 22px;
+    }
+
+    .about__title {
+        max-width: 100%;
+        margin-bottom: 80px;
+        font-size: 34px;
+
+        &::before {
+            top: 154px;
+            left: 32px;
+            transform: translateX(0);
+            width: 330px;
+            height: 330px;
+            border-radius: 165px;      
+            box-shadow: 0px 5.30813px 19.9055px rgba(153, 114, 23, 0.25);
+        
+        }
+    
+        &::after {
+            top: 180px;
+            left: 32px;
+            transform: translateX(0);
+            width: 330px;
+            height: 330px;
+            background-image: url(../../images/about-img-768.png);
+            border-radius: 165px;
+           
+        }
+    }
+
+    @media 
+    (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .about__title::after {
+            background-image:
+            url(../../images/about-img-768@2x.png);
+        }
+    }
+    
+    .about__text-box {
+        max-width: 336px;
+        margin-left: 368px;
+        margin-bottom: 32px;
+    }
+
+    .about__text {
+        text-align: left;
+        &:not(:last-child) {
+            margin-bottom: 8px;
+        }
+    }
+
+    .about__btn {
+        margin-left: 368px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+        padding-bottom: 73px;
+    } 
+
+    .about__label {
+        font-size: 30px;
+    }
+
+    .about__title {
+        margin-bottom: 172px;
+        font-size: 36px;
+
+        &::before {
+            top: 236px;
+            left: 16px;
+            width: 490px;
+            height: 490px;
+            border-radius: 250px;      
+            box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+        
+        }
+    
+        &::after {
+            top: 275px;
+            left: 16px;
+            width: 490px;
+            height: 490px;
+            background-image: url(../../images/about-img-1200.png);
+            border-radius: 250px;
+           
+        }
+    }
+
+    @media 
+    (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .about__title::after {
+            background-image:
+            url(../../images/about-img-1200@2x.png);
+        }
+    }
+
+    .about__text-box {
+        max-width: 463px;
+        margin-left: 600px;
+        margin-bottom: 54px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .about__btn {
+        margin-left: 600px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+.modal {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    width: 87%;
+    height: 100%;
+    overflow: auto;
+    padding: 28px;
+    background-color: var(--text-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 568px;
+        height: auto;
+        padding: 32px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+}
