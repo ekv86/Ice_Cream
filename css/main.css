@@ -324,6 +324,11 @@ section {
   border-radius: 10px;
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 75%;
+  }
+}
 @media screen and (min-width: 768px) {
   .modal {
     width: 568px;
@@ -1270,12 +1275,16 @@ header {
 }
 
 .advantages__icon-description {
-  max-width: 230px;
   font-size: 12px;
   line-height: 1.7;
   color: var(--text-color);
 }
 
+.advantages__item {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .advantages__item:not(:last-child) {
   margin-bottom: 28px;
 }
@@ -1284,11 +1293,6 @@ header {
   .advantages {
     padding-top: 30px;
     padding-bottom: 81px;
-  }
-  .advantages__item {
-    width: 230px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .advantages__item:not(:last-child) {
     margin-bottom: 32px;

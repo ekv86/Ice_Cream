@@ -29,15 +29,19 @@
 }
 
 .advantages__icon-description {
-    max-width: 230px;
     font-size: 12px;
     line-height: 1.7;
     color: var(--text-color);
 
 }
 
-.advantages__item:not(:last-child) {
-    margin-bottom: 28px;
+.advantages__item {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    &:not(:last-child) {
+        margin-bottom: 28px;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -47,14 +51,11 @@
     }
 
     .advantages__item {
-        width: 230px;
-        margin-left: auto;
-        margin-right: auto;
-        
         &:not(:last-child) {
             margin-bottom: 32px;
         }
-    }    
+    }  
+
 }
 
 @media screen and (min-width: 768px) {
