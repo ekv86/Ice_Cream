@@ -1,11 +1,13 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-products]"),
+    openModalBtnTablet: document.querySelector("[data-modal-open-products]"),
+    openModalBtnMobile: document.querySelector("[data-modal-open-products1]"),
     closeModalBtn: document.querySelector("[data-modal-close-products]"),
     modal: document.querySelector("[data-modal-products]"),
   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.openModalBtnTablet.addEventListener("click", toggleModal);
+  refs.openModalBtnMobile.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
 
   function toggleModal() {
@@ -15,12 +17,16 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-ingredients]"),
+    openModalBtn1: document.querySelector("[data-modal-open-ingredients]"),
+    openModalBtn2: document.querySelector("[data-modal-open-ingredients2]"),
+    openModalBtn3: document.querySelector("[data-modal-open-ingredients3]"),
     closeModalBtn: document.querySelector("[data-modal-close-ingredients]"),
     modal: document.querySelector("[data-modal-ingredients]"),
   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.openModalBtn1.addEventListener("click", toggleModal);
+  refs.openModalBtn2.addEventListener("click", toggleModal);
+  refs.openModalBtn3.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
 
   function toggleModal() {
@@ -73,18 +79,5 @@
   }
 })();
 
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-products1]"),
-    closeModalBtn: document.querySelector("[data-modal-close-products1]"),
-    modal: document.querySelector("[data-modal-products1]"),
-  };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-hidden");
-  }
-})();
 

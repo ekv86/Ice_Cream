@@ -53,7 +53,7 @@
                     <use href="./images/icons.svg#icon-burder-menu"></use>
                 </svg>
             </button>
-            <button type="button" class="main-btn header__main-btn" data-modal-open-products1>
+            <button type="button" class="main-btn header__main-btn" data-modal-open-products>
                 <span class="btn-text">Buy now</span>
                 <svg width="12" height="12">
                     <use href="./images/icons.svg#icon-btn"></use>
@@ -95,7 +95,7 @@
                     <a href="#contacts" class="link mobile-menu__link">Contact</a>
                 </li>
             </ul>
-            <button type="button" class="main-btn mobile-menu__btn" data-modal-open-products>
+            <button type="button" class="main-btn mobile-menu__btn" data-modal-open-products1>
                 <span class="btn-text">Buy now</span>
                 <svg width="12" height="12">
                     <use href="./images/icons.svg#icon-btn"></use>
@@ -238,7 +238,7 @@
                             <p class="text products__text">Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers
                             </p>
                         </div>                     
-                        <button type="button" class="products__arrow">
+                        <button type="button" class="products__arrow" data-modal-open-ingredients2>
                             <svg class="products__arrow" width="40" height="16">
                                 <use href="./images/icons.svg#icon-Arrow"></use>
                             </svg>
@@ -250,7 +250,7 @@
                             <p class="text products__text">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice
                             </p>
                         </div>                    
-                        <button type="button" class="products__arrow" data-modal-open-ingredients>
+                        <button type="button" class="products__arrow" data-modal-open-ingredients3>
                             <svg class="products__arrow" width="40" height="16">
                                 <use href="./images/icons.svg#icon-Arrow"></use>
                             </svg>
@@ -582,42 +582,6 @@
                 <div class="contact-form">
                     <label for="message-from-product" class="contact-form__field">Comment</label>
                 <textarea name="user-message" id="message-from-product" class="contact-form__input contact-form__message"></textarea>
-                </div>
-            </form>
-            <button type="submit" class="contact-form__btn">Submit</button>
-        </div>
-    </div>
-    <div class="backdrop is-hidden" data-modal-products1>
-        <div class="product-card modal">
-            <button type="button" class="menu-btn modal-close-btn" data-modal-close-products1>
-                <svg class="modal__icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-close-btn"></use>
-                </svg>
-            </button>
-            <p class="product-card__title modal-title">Buy now</p>
-            <ul class="list product-card__list">
-                <li class="product-card__item product-card__bg1">
-                    <p>ice cream</p>
-                </li>
-                <li class="product-card__item product-card__bg2">
-                    <p>ice coffee</p>
-                </li>
-                <li class="product-card__item product-card__bg3">
-                    <p>milkshake</p>
-                </li>
-            </ul>
-            <form class="product-card__form product-franchise-form">
-                <div class="contact-form">
-                    <label for="name-from-product-tablet" class="contact-form__field">Name</label>
-                    <input type="text" name="user-name" id="name-from-product-tablet" class="contact-form__input">
-                </div>
-                <div class="contact-form">
-                    <label for="phone-from-product-tablet" class="contact-form__field">Phone</label>
-                    <input type="tel" name="user-phone" id="phone-from-product-tablet" class="contact-form__input">
-                </div>
-                <div class="contact-form">
-                    <label for="message-from-product-tablet" class="contact-form__field">Comment</label>
-                <textarea name="user-message" id="message-from-product-tablet" class="contact-form__input contact-form__message"></textarea>
                 </div>
             </form>
             <button type="submit" class="contact-form__btn">Submit</button>
